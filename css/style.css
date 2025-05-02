@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/********* VARIÁVEIS DE CORES *********/
+:root {
+    --Amarelo: #FDD835;
+    --Azul: #0095DA;
+    --Vermelho: #E63946;
+    --Verde: #4CAF50;
+    --Roxo: #9C27B0;
+}
+
+/********* GLOBAL *********/
+body{
+    background-color: #9b27b057;
+    overflow-x: hidden;
+}
+#cabecalho{
+    width: 99vw; height: 10vh;
+    margin: auto;
+    border-bottom: 1px solid black;
+    background-color: var(--Azul);
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    background-image: url(../images/os_simpsons_logo.png);
+    background-size: 10% 90%;
+    background-repeat: no-repeat;
+    background-position: 1%;
+}
+#conteudo {
+    width: 90vw; min-height: 75vh;
+    margin: 1% auto;
+    background-color: rgba(255, 255, 255, 0);
+}
+#rodape {
+    width: 99vw; height: 10vh;
+    margin: auto;
+    border-top: 1px solid black;
+    background-color: var(--Azul);
+}
+h2 {
+    width: 100%; height: 2em;
+    margin: 1.5% 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: var(--Amarelo);
+    letter-spacing: 0.1em;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px black;
+    padding: 1% 0% 0% 3%;
+}
+h3 {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 1em 0em;
+    letter-spacing: 0.1em;
+    color: var(--Amarelo);
+    text-shadow: 5px 5px 10px black;
+}
+
+/********* CABEÇALHO DO SITE *********/
+#menu-nav {
+    width: 80%; height: 70%;
+}
+#menu {
+    width: 100%; height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: right;
+    gap: 0.5em;
+    padding-right: 1em;
+}
+#menu li {
+    list-style: none;
+    width: 7em; height: 2em;
+    text-align: center;
+    padding-top: 0.3%;
+    border-radius: 15px;
+}
+#menu li a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: var(--Amarelo);
+    text-shadow: 2px 2px 1px black;
+}
+#menu li:hover {
+    background-color: var(--Roxo);
+}
+
+/********* ÁREA DE CONTEÚDO *********/
+
+/* Seção de capa */
+#capa {
+    width: 100%; height: 71vh;
+}
+#capa img {
+    width: 100%; height: 100%;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px black;
+}
+
+/* Seção 'Sobre' */
+#sobre {
+    width: 100%; min-height: 80vh;
+    margin: 2% 0%;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px black;
+    background-color: var(--Roxo);
+    background-image: url(../images/os_simpsons_logo.png);
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+#artigo {
+    width: 100%; height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.colunas {
+    width: 30%; height: 60vh;
+    border: 1px solid rgba(255, 255, 255, 0.568);
+    box-shadow: 3px 3px 7px black;
+    background-color: rgba(255, 255, 255, 0.151);
+    padding: 0% 1%;
+    overflow: auto;
+}
+.colunas p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-indent: 1em;
+    text-align: justify;
+    letter-spacing: 0.1em;
+    line-height: 1.3em;
+    margin: 2% 0%;
+    color: rgba(255, 255, 255, 0.863);
+    text-shadow: 5px 5px 5px black;
+}
+
+/* Seção 'História' */
+#historia {
+    width: 100%; min-height: 80vh;
+    margin: 2% 0%;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px black;
+    background-color: var(--Azul);
+    background-image: url(../images/os_simpsons_logo.png);
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+#artigo-historia {
+    width: 100%; height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#artigo-historia div {
+    width: 30%; height: 60vh;
+    border-right: 3px solid black;
+    padding: 1%;
+    background-color: #ffffff4d;
+    border-radius: 10px;
+    overflow: auto;
+}
+#artigo-historia p {
+    text-indent: 10%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #000;
+    letter-spacing: 0.1em;
+    line-height: 1.1em;
+}
+
+/* Seção 'Cards' */
+#cards {
+    width: 100%; min-height: 80vh;
+    margin: 2% 0%;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px black;
+    background-image: url(../images/os_simpsons_logo.png);
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: var(--Verde);
+}
+#conteiner-cards {
+    width: 100%; height: 100%;
+    padding: 3%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    column-gap: 5%;
+}
+.card {
+    width: 30%; height: 80vh;
+    border: 2px solid lightgray;
+    border-radius: 15px;
+    margin-bottom: 3%;
+    flex-basis: 25%;
+    box-shadow: 5px 5px 10px black;
+    overflow: auto;
+}
+.card h4 {
+    width: 100%; height: 15%;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 90%;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 0.1em;
+    text-shadow: 2px 2px 1px black;
+    text-align: center;
+    padding-top: 3%;
+}
+.card img {
+    width: 60%; height: 55%;
+    margin: 5% 20%;
+}
+.card p {
+    width: 95%; height: 20%;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    color: #fff;
+    letter-spacing: 0.1em;
+    text-shadow: 1px 1px 1px black;
+}
+
+/* Seção 'Contatos' */
+#contatos {
+    width: 100%; min-height: 80vh;
+    margin: 2% 0%;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px black;
+    background-color: var(--Vermelho);
+    background-image: url(../images/os_simpsons_logo.png);
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+#contato-linkedin {
+    width: 100%; height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contato-linkedin p {
+    width: 30%; height: 10vh;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bold;
+    color: var(--Amarelo);
+    letter-spacing: 0.2em;
+}
+#contato-linkedin a {
+    color: var(--Amarelo);
+    text-shadow: 3px 3px 1px black;
+    font-size: 2em;
+}
+#contato-linkedin img {
+    width: 8em;
+}
+#contato-email {
+    width: 100%; height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    margin-top: 3%;
+}
+#contato-email img {
+    width: 6em;
+}
+#contato-email p {
+    width: auto;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: var(--Amarelo);
+    text-shadow: 3px 3px 1px black;
+}
+
+/* Rodapé */
+#rodape {
+    text-align: center;
+    padding-top: 1.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--Amarelo);
+    text-shadow: 2px 2px 1px black;
+    letter-spacing: 0.1em;
+}
