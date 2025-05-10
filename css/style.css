@@ -13,6 +13,8 @@
     --Roxo: #9C27B0;
 }
 
+/* TABLETS, NOTEBOOKS, LAPTOPS*/
+
 /********* GLOBAL *********/
 body{
     background-color: #9b27b057;
@@ -303,4 +305,51 @@ h3 {
     color: var(--Amarelo);
     text-shadow: 2px 2px 1px black;
     letter-spacing: 0.1em;
+}
+
+/* MOBILE */
+
+@media (max-width: 425px) {
+    /* Cabeçalho (header) */
+    #cabecalho {
+        width: 100vw; height: 8vh;
+        background-image: url(../images/os_simpsons_logo.png);
+        background-size: 30% 100%;
+        background-position: center center;
+    }
+    #cabecalho img {
+        width: 10%; height: 80%;
+        margin: 0% 87% 1% 0%;
+    }
+    #menu-nav {
+        background-color: var(--Azul);
+        position: absolute;
+        left: 0.5%;
+        width: 50%; height: 40%;
+        top: 8%;
+        border: 1px solid black;
+        border-radius: 15px;
+        display: none;
+    }
+    #menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #menu li {
+        border: 2px solid black;
+        width: 70%;
+    }
+
+    /* Main */
+    #conteudo {
+        width: 100vw; min-height: 80vh;
+        /* border: 1px solid red; */
+    }
+
+    /* Footer */
+    #rodape {
+        width: 100vw; height: 5vh;
+    }
 }
