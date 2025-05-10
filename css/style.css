@@ -310,6 +310,15 @@ h3 {
 /* MOBILE */
 
 @media (max-width: 425px) {
+
+    /* Configurações globais*/
+    h2 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1em;
+    }
+
     /* Cabeçalho (header) */
     #cabecalho {
         width: 100vw; height: 8vh;
@@ -345,12 +354,36 @@ h3 {
     /* Main */
     #conteudo {
         width: 100vw; min-height: 80vh;
-        /* border: 1px solid red; */
     }
     #capa {
         border: none;
         width: 95%; height: 35vh;
         margin: auto;
+    }
+
+    /* Seção 'SOBRE' */
+    #sobre {
+        width: 95%; min-height: 50vh;
+        margin: 2% auto;
+        border: none;
+    }
+    #artigo {
+        width: 100%; height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 3%;
+    }
+    .colunas {
+        width: 95%; height: 30vh;
+        margin: 1.5% auto;
+        border-radius: 8px;
+        background-color: #0000005d;
+        overflow: scroll;
+        box-shadow: 2px 2px 5px black;
+        padding: 0% 2%;
+    }
+    .colunas p {
+        font-size: 0.7em;
     }
 
     /* Footer */
