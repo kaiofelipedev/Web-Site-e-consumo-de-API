@@ -347,6 +347,11 @@ h3 {
         width: 100vw; min-height: 80vh;
         /* border: 1px solid red; */
     }
+    #capa {
+        border: none;
+        width: 95%; height: 35vh;
+        margin: auto;
+    }
 
     /* Footer */
     #rodape {
