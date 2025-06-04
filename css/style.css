@@ -399,7 +399,7 @@ h3 {
         padding-bottom: 3%;
     }
     #artigo-historia div {
-        width: 95%; height: 40vh;
+        width: 95%; height: 35vh;
         margin: 1.5% auto;
         border-radius: 8px;
         box-shadow: 2px 2px 5px black;
@@ -411,7 +411,7 @@ h3 {
         padding: 0px 3px;
         color: #fff;
     }
-    
+
 
     /* Footer */
     #rodape {
