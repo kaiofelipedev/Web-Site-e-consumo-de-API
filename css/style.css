@@ -410,8 +410,12 @@ h3 {
         text-shadow: 1px 1px 1px black;
         padding: 0px 3px;
         color: #ffffffd3;
+        letter-spacing: 0.2em;
+        line-height: 1.2em;
     }
 
+    /* Seção 'CARDS' */
+    
 
     /* Footer */
     #rodape {

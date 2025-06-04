@@ -49,6 +49,6 @@ const APICONECT = async function(){
 }
 
 // Evento para carregar os cards
-window.addEventListener('load', function(){
-    APICONECT()
+window.addEventListener('load', async function(){
+    await APICONECT()
 })
