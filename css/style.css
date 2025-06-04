@@ -374,7 +374,7 @@ h3 {
         padding-bottom: 3%;
     }
     .colunas {
-        width: 95%; height: 30vh;
+        width: 95%; height: 35vh;
         margin: 1.5% auto;
         border-radius: 8px;
         background-color: #0000005d;
@@ -385,6 +385,33 @@ h3 {
     .colunas p {
         font-size: 0.7em;
     }
+
+    /* Seção 'HISTÓRIA' */
+    #historia {
+        width: 95%; min-height: 50vh;
+        margin: 2% auto;
+        border: none;
+    }
+    #artigo-historia {
+        width: 100%; height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 3%;
+    }
+    #artigo-historia div {
+        width: 95%; height: 40vh;
+        margin: 1.5% auto;
+        border-radius: 8px;
+        box-shadow: 2px 2px 5px black;
+        padding: 0% 2%;
+    }
+    #artigo-historia div p {
+        font-size: 0.7em;
+        text-shadow: 1px 1px 1px black;
+        padding: 0px 3px;
+        color: #fff;
+    }
+    
 
     /* Footer */
     #rodape {
