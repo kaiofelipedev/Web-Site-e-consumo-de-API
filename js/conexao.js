@@ -7,7 +7,7 @@
  ************************************************************************************************************/
 
 // URL da API
-const APIURL = `https://thesimpsonsquoteapi.glitch.me/quotes?count=12`
+const APIURL = `https://thesimpsonsquoteapi.glitch.me/quotes?count=6`
 
 // Variável que receb o conteiner de cards
 const CONTEINER = document.getElementById('conteiner-cards')
